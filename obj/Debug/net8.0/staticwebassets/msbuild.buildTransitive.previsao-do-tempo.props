@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/previsao-do-tempo.props" />
+</Project>

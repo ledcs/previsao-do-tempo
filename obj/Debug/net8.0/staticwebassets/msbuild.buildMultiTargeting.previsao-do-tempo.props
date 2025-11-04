@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/previsao-do-tempo.props" />
+</Project>

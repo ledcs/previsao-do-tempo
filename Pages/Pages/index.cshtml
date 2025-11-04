@@ -1,0 +1,17 @@
+@page
+@model IndexModel
+
+<h2>Consulta de Endereço por CEP 📦</h2>
+
+<form method="get">
+    <input type="text" name="cep" placeholder="Digite o CEP" value="@Model.Cep" />
+    <button type="submit">Buscar</button>
+</form>
+
+@if (Model.DadosCep != null)
+{
+    <p><b>CEP:</b> @Model.DadosCep.cep</p>
+    <p><b>Logradouro:</b> @Model.DadosCep.logradouro</p>
+    <p><b>Bairro:</b> @Model.DadosCep.bairro</p>
+    <p><b>Cidade:</b> @Model.DadosCep.localidade - @Model.DadosCep.uf</p>
+}
