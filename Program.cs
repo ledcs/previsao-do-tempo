@@ -1,3 +1,4 @@
+using previsao_do_tempo.Serviços;
 // 1. Criar o construtor da aplicação
 var builder = WebApplication.CreateBuilder(args);
 
